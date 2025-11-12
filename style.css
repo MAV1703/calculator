@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #defce3;
+}
+
+header {
+    width: 100%;
+    height: 25vh;
+    background: linear-gradient(to right, #189a2e, #57ee70);
+    padding: 20px;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__container__pic {
+    padding: 15px;
+    width: 200px;
+    border-radius: 50px;
+    transform: rotate(-7deg);
+}
+
+h1 {
+    text-align: center;
+    padding: 3%;
+    color: antiquewhite;
+    font-size: 64px;
+    font-family: Caveat;
+}
+
+main {
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 250px  37% auto;
+}
+
+.main__container__left-menu {
+    padding: 15px;
+    
+}
+
+
+.main__container__left-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__container__left-menu a {
+   text-decoration: none;
+   font-size: 28px;
+   color: orangered;
+   font-family: Caveat;
+}
+
+.main__container__left-menu a:hover {
+    color: rgb(231, 141, 6);
+    padding-left: 15px;
+    transition: 0.4s;
+}
+
+
+.calculator {
+    background:#57ee70;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #0a5215;
+    font-family: Jost;
+    font-size: 24px;
+
+}
+
+
+.calculator input {
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    padding: 5px;
+    height: 20px;
+    color: #0a5215;
+    background: #defce3;
+    font-family: Jost;
+    font-size: 18px;
+    text-align: center;
+    box-shadow:2px 2px #52a560 inset;
+}
+
+.calculator button {
+    width: 150px;
+    height: 35px;
+    font-family: Jost;
+    font-size: 20px;
+    color: #0a5215;
+    border-radius: 7px;
+    border: none;
+    background:rgb(231, 141, 6);
+}
+
+.calculator button:hover {
+    background: #dbff0e;
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+.main__container__result-description {
+    margin: 10px;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+    color: #0a5215;
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: Caveat;
+}
